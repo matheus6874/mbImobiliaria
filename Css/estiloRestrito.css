@@ -1,0 +1,118 @@
+body {
+	width: 100%;
+	/*background-image: url("../images/6.png");*/
+	background-color: #1C1C1C;
+	background-size: 100% 100%; 
+	font-family: Arial;
+	color: white;
+}
+
+
+
+.menu li:hover{
+	font-size: 18px;
+}
+
+.menu{
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+
+#conteudo{
+	width: 100%;
+	margin: auto;
+}
+
+footer {	 
+	clear: both; /*Limpa os elementos dos 2 lados*/
+	background-color: white;
+	font-size: 14px;
+	position: relative;
+	overflow: auto; /*barras automáticas quando troca o tamanho da tela*/
+	width: 100%;
+	border: 1px solid black !important; 
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	margin-top: 20px;
+	padding: 0 10px 0 10px;	
+	margin-top: 20px;
+}
+
+footer ul {
+	list-style: none;
+	padding-top: 50px;
+}
+
+footer ul li {
+	text-decoration: none;
+	display: inline;
+	margin-right: 35px;/*Distancia entre os itens*/
+}
+
+table.center {
+	margin: 0 auto; 
+}
+
+.fa {
+	padding-top: 32px;
+	padding-right: 40px;
+	font-size: 25px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	float:right;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.imagensMinhatura{
+	max-width:400px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+}
+
+section{
+	width: 40%;
+	margin: auto;
+}
+
+.a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid rgba(0, 0, 0, .2);
+
+}
+
+.imagensImoveis-img{
+	width: 15%;
+	float: right;
+	padding: 1%;
+	margin: 10px;
+	height: 150px;
+}
+
+.tamanhoImagem{
+	max-width:800px;
+	max-height:600px;
+	padding: 5px;
+    width: auto;
+    height: auto;
+}
+
+#imagens{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
