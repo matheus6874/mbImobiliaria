@@ -1,0 +1,140 @@
+body {
+	width: 100%;
+	/*background-image: url("../images/6.png");*/
+	background-color: #1C1C1C;
+	background-size: 100% 100%; 
+	font-family: Arial;
+	color: white;
+}
+
+.menu li:hover{
+	font-size: 18px;
+}
+
+#conteudo{
+	width: 100%;
+	margin: auto;
+}
+
+#formLoginModal{
+	color: #1C1C1C;
+	
+}
+
+footer {	 
+	clear: both; /*Limpa os elementos dos 2 lados*/
+	background-color: white;
+	font-size: 14px;
+	position: relative;
+	overflow: auto; /*barras automáticas quando troca o tamanho da tela*/
+	width: 100%;
+	border: 1px solid black !important; 
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+	margin-top: 20px;
+	padding: 0 10px 0 10px;	
+	margin-top: 20px;
+}
+
+.menu{
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+
+table.center {
+	margin: 0 auto; 
+}
+
+#galeria{
+	width: 100%;
+}
+
+.imgGalery {
+	width: 100%;
+	min-width: 320px;
+	height: 280px;
+	border-radius: 20px;
+	padding: 10px;
+	display: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.imagensMinhatura{
+	width: 100%;
+	min-width: 250px;
+	border-radius: 15px;
+}
+
+.imgslide {
+	width: 100%;
+}
+
+#detalhesImoveis{
+	color: black;
+}
+
+#formContato{
+	color: black;
+}
+
+.fa {
+	padding-top: 50px;
+	padding-right: 40px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	float:right;
+}
+
+
+#slider {
+	width: 98%;
+	max-width: 98%;
+	height:480px;
+	transition: background-image 2s;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+
+.new-direction-slider a{
+	display: block;
+	width: 30px;
+	height: 30px;
+	position:absolute;
+	top:45%;
+	z-index:5;
+	cursor:pointer;
+}
+
+.new-direction-slider, .nprev-slider{
+	background-image: url(../images/circle-left.png);
+	background-size: cover;
+	text-indent: -9999px;
+	left: 2%;
+}
+
+.new-direction-slider, .nprox-slider{
+	background-image: url(../images/circle-right.png);
+	background-size: cover;
+	text-indent: -9999px;
+	right: 4%;
+}
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
